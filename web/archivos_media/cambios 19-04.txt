@@ -1,0 +1,15 @@
+
+
+Gracias amigo por la aclaracion de la pagina 
+de echo ya tenia  informacion al respecto para verificar el funcionamiento de compra-pago 
+pero como me habias dicho que lo del pago 
+de Paypal estaba echo supuse que en su cuenta aparecia lo de la confirmacion 
+linkeada a la pagina del sitio lo que al parecer estaba en una cuenta de sandbox.paypal 
+la cual funciona para confirmar (como prueba) pero no hace transacciones reales.Entonces para probar si se veian las 
+compras registradas pero al cambiar para el paypal verdadero no funciona.
+Por tanto  quedaria poner en el IPN de paypal 
+esta direccion del sitio en la cual se tramitan las transacciones.
+Tambien envio un archivo al cual hice cambios.
+Saludos.
+Archivo   -> Path
+index.php -> views/site

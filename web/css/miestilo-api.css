@@ -1,0 +1,78 @@
+/* mis estilos */
+
+body{	background:#F9F9F9; margin-top:0px !important; padding-top: 0px !important;	}
+
+*{	font-family:Verdana, Geneva, sans-serif;		}
+
+.affix {
+      top: 0;      width: 100%;
+  }
+.affix + .container-fluid {
+      padding-top: 70px;
+  }
+.tooltip > .tooltip-inner{
+    background-color: #F9F9F9 !important;
+    color: black;
+    border: 1px solid #DDDDDD;    
+}
+.tooltip.top > .tooltip-arrow {
+    border-top: 5px solid #DDDDDD;
+}
+#banner{
+	/*background-color:#0085d2; azul clarito #0089CE ; azul oscuro #004184 */
+	background:#B61C01;    color:#fff;     height:80px;
+	padding-top:5px;
+	margin-bottom:20px;
+	font-family:Tahoma, Geneva, sans-serif ; font-size:18px;		
+	}
+.mi-btn{
+	background: #353132;
+	padding:12px; cursor:pointer;	}
+	
+#menu-load{
+	background:#004184;	border-radius:0px ; 	border-top:#FAFAFA 1px solid;
+	border-right:#FAFAFA;  max-width:100%;
+	/*  background:#FAFAFA  color:#e9734c ;-> naranja ; #CC0001 ->rojo; */
+	font-weight:bold;			z-index:100;	margin-bottom:10px; border-bottom: 2px solid #F9F9F9;
+	}
+#menu-load ul li {
+	padding:0px; color:white !important;	/* #004184 */	
+	}
+	
+li.pg-menu{
+	text-decoration:none; list-style:none; text-align:left;
+	margin-left:-30px; padding:4px;
+	}
+.pg-menu:hover{
+/* background:#177EE5	; color:white;*/
+	}
+/*para el paginado */	
+.pagination > ul > li.active , .pagination > ul > li.active > a ,i.active{
+	background: #286090; color: white !important; 
+	}
+	
+
+
+
+@keyframes MiAnimacion
+{
+    50%{transform: rotateZ(10deg) !important;}
+	100%{transform: rotateZ(40deg) !important;} 
+}
+@-webkit-keyframes MiAnimacion {
+	50%{transform: rotateZ(10deg) !important;}
+	100%{transform: rotateZ(40deg) !important;}
+}
+#logo-s {
+    transition: all 0.5s ease;
+}
+#logo-s:hover {
+	transform: rotateY(180deg);
+	}
+.subtitle {
+	font-size:10px !important;	color:white;	position:absolute; top:50px;	left:85px;
+	}
+#imagen-banner > a:hover {
+	text-decoration:none ; 
+	opacity:0.8;
+	}
